@@ -4,7 +4,7 @@
   "scripts": {
     "start": "mdx-deck deck.mdx",
     "preview": "mdx-deck presentation.mdx",
-    "build": "mdx-deck build deck.mdx",
+    "build": "mdx-deck build presentation.mdx",
     "test": "echo \"there are no tests\""
   },
   "devDependencies": {

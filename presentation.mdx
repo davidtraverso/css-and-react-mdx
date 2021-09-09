@@ -4,7 +4,6 @@ import {
   Step,
 } from "code-surfer";
 import { duotoneLight, github, oceanicNext, shadesOfPurple, vsDark } from "@code-surfer/themes";
-import Button from "./components/Button.js";
 
 export const theme = vsDark;
 
@@ -39,12 +38,51 @@ export const theme = vsDark;
 ```js 1,4,8[10:25],9[15:37],10[25:45],28 file=./code/create-react-app/create-react-app.js
 ```
 
-```css 1,3,7,18,41  file=./code/create-react-app/create-react-app.css
+```css 1,3,5,7,10,18,27,41  file=./code/create-react-app/create-react-app.css
 ```
 
 </Step>
 
 </CodeSurferColumns>
+
+---
+
+<CodeSurfer>
+
+```js file=./code/css-modules/component-before.js
+```
+
+```js 3 file=./code/css-modules/component-during.js
+```
+
+```js 6:8 file=./code/css-modules/component-after.js
+```
+
+```js file=./code/css-modules/component-after.js
+```
+
+``` diff 3,6[19:32],7[19:34],8[24:34]
+```
+
+</CodeSurfer>
+
+---
+
+<CodeSurfer>
+
+```js file=./code/style-attribute/before.js
+```
+
+```js 5:11,15[10:24] file=./code/style-attribute/during1.js
+```
+
+```js 14:16 file=./code/style-attribute/during2.js
+```
+
+```js 19[10:52] file=./code/style-attribute/during3.js
+```
+
+</CodeSurfer>
 
 ---
 
